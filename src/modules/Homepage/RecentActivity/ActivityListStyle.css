@@ -1,0 +1,17 @@
+.right-panel {
+    position: sticky !important;
+    top: 66px;
+    width: 100%;
+    height: calc(100vh - 58px);
+    background: #fff;
+    border-left: 1px solid #e0e0e0;
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    
+}

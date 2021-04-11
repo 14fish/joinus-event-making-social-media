@@ -1,0 +1,98 @@
+.col-margin3 {
+    margin: 20px 0px 5px 80px;
+}
+
+.col-margin3 .ant-card {
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+    ;
+    border-radius: 10px;
+    position: relative;
+}
+
+.col-margin3 .ant-card-body {
+    padding: 16px;
+}
+
+.col-margin3 .contentEvent {
+    position: absolute;
+    bottom: 93px;
+    left: 42px;
+    color: white
+}
+.mr-top{
+    margin-top:100px !important
+}
+.align-end {
+    text-align: end
+}
+
+.col-margin3 .contentEvent p {
+    margin-bottom: 0;
+}
+
+.mr-bt-minus {
+    margin-bottom: 0;
+}
+
+.col-margin3 .contentEvent p:first-child {
+    font-size: 26px;
+}
+
+.ui-button {
+    background-color: #00b5ad !important;
+    border: 1px solid #00b5ad !important;
+    color: white !important
+}
+
+.warning {
+    background-color: #b5001e !important;
+}
+
+.ui-button:hover {
+    background-color: #009c95 !important;
+}
+
+.ui-button .ant-typography {
+    color: white
+}
+
+.ui-button-joined {
+    background-color: #e0e1e2 !important;
+    border: 1px solid #e0e1e2 !important;
+    color: rgba(0, 0, 0, .6) !important;
+    height: 32px !important;
+    padding: 3px 14px !important;
+    font-size: 14x !important;
+}
+
+.ui-button-joined:hover {
+    background-color: #adb2b6 !important;
+}
+
+
+/* 
+
+
+
+/* 
+.card-event:hover {
+    margin-top: -3px
+}
+
+.mr-t .ant-card-body {
+    text-align: center
+}
+
+.col-margin .ant-card-meta-detail {
+    margin-top: 70px;
+}
+
+.mr-t .ant-card-body .ant-card-meta-detail {
+    margin-top: 6px;
+}
+
+#big-avatar .ant-avatar-lg {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px
+} */

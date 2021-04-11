@@ -1,0 +1,18 @@
+
+.search-suggestion{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 500px;
+    z-index: 999;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}

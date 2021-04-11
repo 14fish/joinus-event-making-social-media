@@ -1,0 +1,175 @@
+
+.startScreenContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+
+}
+
+
+
+.blue-bg{
+    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 75% 100%);
+    background-color: #0062ff;
+    width: 100%;
+    position: relative;
+}
+
+canvas{
+    width: 100%;
+}
+
+.box-title{
+    position: absolute;
+    top: 200px;
+    left: 60%;
+}
+
+.box-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    line-height: 1;
+    text-shadow: 5px 5px #0052d6, 10px 10px #0052d6;
+}
+.box-title h3{
+    margin: 0 !important;
+    transform: translateY(-30px);
+    padding: 0 15px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #fcfcfc !important;  
+    text-shadow: 2px 2px #0052d6, 5px 5px #0052d6;
+}
+
+.img-container-start-screen{
+    min-height: 100vh;
+    width: 200px;
+    position: relative;
+}
+
+.get-started-button{
+    min-width: 190px;
+}
+
+.getStarted{
+    margin: 20px 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border-width: 1px;
+    cursor: pointer;
+    padding: 17px 30px;
+    transition: all .3s;
+    background-color: #fff;
+    color: #0062ff;
+    margin-left: 20px;
+}
+
+.friendsImg{
+    position: absolute;
+    left: 180%;
+    top: 40%;
+    transform: scale(3.5);
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-get-started{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn-get-start-screen{
+    margin-right: 20px;
+    color: #fcfcfc;
+    font-size: 16px;
+}
+
+.sign-up{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 9.95px 28.4px;
+}
+.sign-up:hover{
+    background: #fff;
+    color: #0062ff;
+}
+
+.tablet-text-start-screen{
+    display: none;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .blue-bg{
+        clip-path: none;
+        background-color: #0062ff;
+        width: 100%;
+    }
+    
+    .friendsImg{
+        transform: scale(1);
+        left: 0;
+        top: 0;
+    }
+
+    .box-title{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .img-container-start-screen{
+        width: 500px;
+    }
+
+    .tablet-text-start-screen{
+        display: inherit;
+        position: absolute;
+        color: #0062ff;
+        opacity: 0.6;
+        width: 90%;
+        margin-left: 20px;
+        bottom: 100px;
+        font-family: 'Roboto';
+        font-size: 24px;
+        text-align: center;
+    }
+    
+}
+
+@media  (max-width: 767px) {
+
+    .friendsImg{
+        display: none;
+    }
+
+    .blue-bg{
+        clip-path: none;
+        background-color: #0062ff;
+        width: 100%;
+        position: relative;
+    }
+
+    .img-container-start-screen{
+        width: 0px;
+    }
+
+    .startScreenContainer{
+        background-color: #0062ff;
+    }
+
+
+    .box-title{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}

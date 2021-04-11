@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    width: 100% !important;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.ant-col{
+    width: 100%;
+}
+
+.logo-items, .search-profile{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+@media  (max-width: 767px){
+    .navbar-items{
+        display: none;
+    }
+    .search-form{
+        display: none !important;
+    }
+
+}

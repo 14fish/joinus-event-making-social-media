@@ -1,0 +1,19 @@
+.left-panel {
+    min-width: 20%;
+    position: sticky;
+    top: 66px;
+    left: 0;
+    height: calc(100vh - 58px);
+    background: #fff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.left-panel-inner {
+    position: relative;
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-bottom: 60px;
+}
+.has-slimscroll {
+    overflow-x: hidden !important;
+}

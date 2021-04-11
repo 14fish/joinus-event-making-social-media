@@ -1,0 +1,187 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "This is test name for event 1",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description1",
+      "location": [
+        40.41312,
+        49.82131
+      ],
+      "place": "This is a test location 1",
+      "image": "men/1.jpg",
+      "hostedBy": "Author 1",
+      "categoryId": "1",
+      "time": "13:00"
+    },
+    {
+      "id": 2,
+      "title": "This is test name for event 2",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description2",
+      "location": [
+        40.42322,
+        49.82232
+      ],
+      "place": "This is a test location 2",
+      "image": "men/2.jpg",
+      "hostedBy": "Author 2",
+      "categoryId": "4",
+      "time": "17:00"
+    },
+    {
+      "id": 3,
+      "title": "This is test name for event 3",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description3",
+      "location": [
+        40.43332,
+        49.82333
+      ],
+      "place": "This is a test location 3",
+      "image": "men/3.jpg",
+      "hostedBy": "Author 3",
+      "categoryId": "3",
+      "time": "16:00"
+    },
+    {
+      "id": 4,
+      "title": "This is test name for event 4",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description4",
+      "location": [
+        40.44342,
+        49.82434
+      ],
+      "place": "This is a test location 4",
+      "image": "men/4.jpg",
+      "hostedBy": "Author 4",
+      "categoryId": "1",
+      "time": "13:00"
+    },
+    {
+      "title": "This is test name for event 5",
+      "description": " Very interesting that has to take some space, bla bla bla. Some textt  -Description4",
+      "location": [
+        40.44342,
+        49.82434
+      ],
+      "place": "This is a test location 4",
+      "image": "men/4.jpg",
+      "hostedBy": "Author 4",
+      "categoryId": "1",
+      "time": "13:00",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Entertaiment"
+    },
+    {
+      "id": 2,
+      "name": "Art"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Fun"
+    },
+    {
+      "id": 5,
+      "name": "Infographic"
+    },
+    {
+      "id": 6,
+      "name": "Test"
+    }
+  ],
+  "recent": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Someone1",
+        "image": "men/1.jpg"
+      },
+      "activity": "did something very interesting 1",
+      "date": "5/12/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Someone2",
+        "image": "men/2.jpg"
+      },
+      "activity": "did something very interesting 2",
+      "date": "14/11/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "Someone3",
+        "image": "men/3.jpg"
+      },
+      "activity": "did something very interesting 3",
+      "date": "9/12/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "Someone4",
+        "image": "women/4.jpg"
+      },
+      "activity": "did something very interesting 4",
+      "date": "10/12/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 5,
+      "user": {
+        "name": "Someone5",
+        "image": "men/5.jpg"
+      },
+      "activity": "did something very interesting 5",
+      "date": "14/12/2019",
+      "time": "22:10"
+    },
+    {
+      "id": 6,
+      "user": {
+        "name": "Someone6",
+        "image": "women/6.jpg"
+      },
+      "activity": "did something very interesting 6",
+      "date": "14/12/2019",
+      "time": "21:20"
+    },
+    {
+      "id": 7,
+      "user": {
+        "name": "Someone7",
+        "image": "women/7.jpg"
+      },
+      "activity": "did something very interesting 7",
+      "date": "14/12/2019",
+      "time": "13:00"
+    }
+  ],
+  "comments": [
+    {
+      "id": 4,
+      "body": "some comment",
+      "userId": "2",
+      "eventId": "2"
+    }
+  ],
+  "profile": {
+    "name": "Jonh Doe",
+    "birthDate": "12/09/1998",
+    "city": "Baku",
+    "image": "men/77.jpg",
+    "photos": []
+  }
+}

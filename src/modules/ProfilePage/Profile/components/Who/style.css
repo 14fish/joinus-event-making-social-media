@@ -1,0 +1,119 @@
+.col-margin {
+    margin: 37px 83px 21px;
+}
+
+.mr-t {
+    margin-top: 20px !important
+}
+
+.mr-b {
+    margin-bottom: 20px !important
+}
+
+.card-event:hover {
+    margin-top: -3px
+}
+
+.mr-t .ant-card-body {
+    text-align: center
+}
+
+.col-margin .ant-card-body {
+    padding: 16px 19px;
+}
+
+.col-margin .ant-card-meta-detail {
+    margin-top: 70px;
+}
+
+.mr-t .ant-card-body .ant-card-meta-detail {
+    margin-top: 6px;
+}
+
+#big-avatar .ant-avatar-lg {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px
+}
+
+.col-margin2 {
+    margin: 20px 0px 5px 80px;
+}
+
+.col-margin2 .ant-card-body {
+    padding: 9px 19px;
+}
+
+.col-margin2 i {
+    margin-right: 10px;
+    font-size: 28px
+}
+
+.about-margin {
+    margin: 5px 0
+}
+
+.margin-left-btn {
+    margin: 20px 0px 5px 60px;
+}
+
+.margin-left-btn .ant-card-body {
+    padding: 20px;
+}
+
+.card-event {
+    width: 150;
+    border-radius: 12px
+}
+
+@media only screen and (min-width: 768px) and (max-width:960px) {
+    .margin-left-btn {
+        margin: 20px 0px 5px 32px;
+    }
+    .col-margin {
+        margin: 37px 48px 21px;
+    }
+    .col-margin3 {
+        margin: 20px 0px 5px 140px !important;
+    }
+    .col-margin2 {
+        margin: 20px 0px 5px 140px;
+    }
+    .ant-row:last-child .col-margin2 {
+        margin-top: 3px;
+    }
+    .col-margin2 .ant-card-body {
+        padding: 9px 0px;
+    }
+    .card-event {
+        width: 80;
+        border-radius: 12px
+    }
+    .guest {
+        display: none !important
+    }
+    .col-margin3 .contentEvent p:first-child {
+        font-size: 22px !important;
+    }
+    .bs-mr {
+        margin: 20px 0px 5px 50px !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .col-margin3 .contentEvent p:first-child {
+        font-size: 14px !important;
+    }
+    .guest {
+        display: none !important
+    }
+    #text {
+        display: none !important
+    }
+    .col-margin3 {
+        margin: 20px 0px 5px 66px !important;
+    }
+    .col-margin2 {
+        margin: 20px 0px 5px 66px;
+    }
+}

@@ -1,0 +1,521 @@
+{
+  "events": [
+    {
+      "id": 6,
+      "title": "This is test name for event 1a",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description1",
+      "location": {
+        "latitude": 40.3781403,
+        "longitude": 49.81145430000004
+      },
+      "place": "Yasamal, Baku, Azerbaijan",
+      "image": "men/1.jpg",
+      "hostedBy": "Author 1",
+      "categoryId": "1",
+      "time": "13:00",
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      },
+      "category": "Art",
+      "date": "10/12/2019"
+    },
+    {
+      "id": 9,
+      "title": "This is test name for event 2",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description2\n\nsad\nas\nd\nasd\nasd\nas\ndas\ndas\nd\nda",
+      "location": {
+        "latitude": 40.3790787,
+        "longitude": 49.846765600000026
+      },
+      "place": "28 Mall Ticarət Mərkəzi, Baku, Azerbaijan",
+      "image": "men/2.jpg",
+      "hostedBy": "Author 2",
+      "categoryId": "4",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "17:00",
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "This is test name for event 3",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description3",
+      "location": [
+        40.43332,
+        49.82333
+      ],
+      "place": "This is a test location 3",
+      "image": "men/3.jpg",
+      "hostedBy": "Author 3",
+      "categoryId": "3",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "16:00",
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "This is test name for event 4",
+      "description": " Very interesting event description that has to take some space, bla bla bla. Some textt  -Description4",
+      "location": [
+        40.44342,
+        49.82434
+      ],
+      "place": "This is a test location 4",
+      "image": "men/4.jpg",
+      "hostedBy": "Author 4",
+      "categoryId": "1",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "13:00",
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      }
+    },
+    {
+      "title": "This is test name for event 5",
+      "description": " Very interesting that has to take some space, bla bla bla. Some textt  -Description4",
+      "location": [
+        40.44342,
+        49.82434
+      ],
+      "place": "This is a test location 4",
+      "image": "men/4.jpg",
+      "hostedBy": "Author 4",
+      "categoryId": "1",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "13:00",
+      "id": 8,
+      "userImages": [
+        "men/4.jpg",
+        "women/12.jpg",
+        "men/9.jpg"
+      ],
+      "author": {
+        "name": "Jonh Doe",
+        "image": "men/17.jpg"
+      }
+    },
+    {
+      "place": "Baku, Azerbaijan",
+      "title": "Event test1",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "02:15",
+      "description": "dsaaaaaaaaaaaaaaaadas",
+      "location": {
+        "latitude": 40.40926169999999,
+        "longitude": 49.86709240000005
+      },
+      "id": 7,
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      }
+    },
+    {
+      "place": "Aspen, CO, USA",
+      "category": "Art",
+      "date": "10/12/2019",
+      "time": "02:30",
+      "description": "dasdsadadas",
+      "title": "Event test112",
+      "location": {
+        "latitude": 39.1910983,
+        "longitude": -106.8175387
+      },
+      "id": 70,
+      "guests": [
+        {
+          "name": "Jonh Doe",
+          "image": "men/4.jpg",
+          "id": 2
+        },
+        {
+          "name": "Jonh Doe2",
+          "image": "men/5.jpg",
+          "id": 3
+        },
+        {
+          "name": "Jonh Doe3",
+          "image": "men/6.jpg",
+          "id": 4
+        },
+        {
+          "name": "Jonh Doe4",
+          "image": "women/9.jpg",
+          "id": 5
+        }
+      ],
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/21.jpg"
+      }
+    },
+    {
+      "title": "Product Accounts Engineer",
+      "description": "Laborum nostrum dignissimos itaque culpa iste aut vel.",
+      "category": "Social",
+      "date": "31/12/2019",
+      "time": "02:15",
+      "location": {
+        "latitude": 40.6878581,
+        "longitude": 46.37233130000004
+      },
+      "id": 7,
+      "guests": [
+        {
+          "name": "Jonh Doe",
+          "image": "men/4.jpg",
+          "id": 2
+        },
+        {
+          "name": "Jonh Doe2",
+          "image": "men/5.jpg",
+          "id": 3
+        },
+        {
+          "name": "Jonh Doe3",
+          "image": "men/6.jpg",
+          "id": 4
+        },
+        {
+          "name": "Jonh Doe4",
+          "image": "women/9.jpg",
+          "id": 5
+        }
+      ],
+      "author": {
+        "name": "Jonh Doe",
+        "image": "men/17.jpg"
+      },
+      "place": "Gäncä, Azerbaijan"
+    },
+    {
+      "title": "Regional Paradigm Specialist",
+      "description": "Sit qui beatae et qui repellat et.",
+      "place": "8862 Gina Way, Union City, CA, USA",
+      "category": "Art",
+      "date": "24/12/2019",
+      "time": "01:30",
+      "location": {
+        "latitude": 37.5733177,
+        "longitude": -122.07432489999997
+      },
+      "id": 86,
+      "author": {
+        "name": "Ferid Bedelov",
+        "image": "men/19.jpg"
+      },
+      "guests": [
+        {
+          "name": "Jonh Doe",
+          "image": "men/4.jpg",
+          "id": 2
+        },
+        {
+          "name": "Jonh Doe2",
+          "image": "men/5.jpg",
+          "id": 3
+        },
+        {
+          "name": "Jonh Doe3",
+          "image": "men/6.jpg",
+          "id": 4
+        },
+        {
+          "name": "Jonh Doe4",
+          "image": "women/9.jpg",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "title": "Forward Implementation Administrator",
+      "description": "Maxime tempora repellat quos ex magni consectetur ducimus.",
+      "place": "79050 Bobbie Avenue, San Jose, CA, USA",
+      "category": 3,
+      "location": {
+        "latitude": 37.280982,
+        "longitude": -121.99159150000003
+      },
+      "id": 100,
+      "author": {
+        "name": "Jonh Doe",
+        "image": "men/17.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Entertaiment"
+    },
+    {
+      "id": 2,
+      "name": "Art"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Fun"
+    },
+    {
+      "id": 5,
+      "name": "Infographic"
+    },
+    {
+      "id": 6,
+      "name": "Test"
+    }
+  ],
+  "recent": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Fatih Hadisov",
+        "image": "men/1.jpg"
+      },
+      "activity": "joined IBA Tech Final Presentation",
+      "date": "5/12/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Zaur Aliyev",
+        "image": "men/2.jpg"
+      },
+      "activity": "joined 2020 Formula 1 Azerbaijan Grand Prix",
+      "date": "14/11/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "Ferid Bedelov",
+        "image": "men/3.jpg"
+      },
+      "activity": "joined IBA Tech Final Presentation",
+      "date": "9/12/2019",
+      "time": "13:00"
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "Yusif Agalarli",
+        "image": "men/5.jpg"
+      },
+      "activity": "joined 2020 Formula 1 Azerbaijan Grand Prix",
+      "date": "10/12/2019",
+      "time": "13:00"
+    }
+    
+      
+  ],
+  "profile": {
+    "name": "Jonh Doe",
+    "birthdate": "8/09/1998",
+    "city": "Baku",
+    "image": "men/67.jpg",
+    "photos": [],
+    "createdAt": "14/10/2019",
+    "interest": []
+  },
+  "users": [
+    {
+      "name": "Ferid Bedelov",
+      "birthdate": "8/09/1998",
+      "createdAt": "14/10/2019",
+      "city": "Baku",
+      "id": 1
+    },
+    {
+      "email": "marina.kautzer54@gmail.com",
+      "password": "12345678",
+      "confirm": "12345678",
+      "nickname": "Jast",
+      "id": 3
+    },
+    {
+      "email": "armando_little@hotmail.com",
+      "password": "hotmail",
+      "confirm": "hotmail",
+      "nickname": "Rohan",
+      "id": 4
+    },
+    {
+      "email": "hilda89@yahoo.com",
+      "password": "iA0nQUf5g2LDboU",
+      "confirm": "iA0nQUf5g2LDboU",
+      "nickname": "Bogisich",
+      "id": 5
+    },
+    {
+      "email": "bruce14@yahoo.com",
+      "password": "HW73ATQ6qBiaOLK",
+      "confirm": "HW73ATQ6qBiaOLK",
+      "nickname": "Prohaska",
+      "id": 6,
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description6"
+    },
+    {
+      "name": "Jacquelyn White",
+      "email": "saige_schumm@gmail.com",
+      "password": "zyW8ZywjS9GDgu2",
+      "surname": "Piper69",
+      "id": 7,
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description7"
+    }
+  ],
+  "nearBy": [
+    {
+      "location": {
+        "latitude": 40.4133177,
+        "longitude": 49.92432489999997
+      },
+      "name": "An interesting event 2 bla bla bla ",
+      "id": 86,
+      "category": "Fun",
+      "date": "4/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description86"
+    },
+    {
+      "location": {
+        "latitude": 40.48,
+        "longitude": 49.83
+      },
+      "name": "An interesting event  1 bla bla bla ",
+      "id": 3,
+      "category": "Art",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description3"
+    },
+    {
+      "location": {
+        "latitude": 40.4933177,
+        "longitude": 49.83
+      },
+      "name": "An interesting event  2 bla bla bla ",
+      "id": 4,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description4"
+    },
+    {
+      "location": {
+        "latitude": 40.393177,
+        "longitude": 49.81
+      },
+      "name": "An interesting event  3 bla bla bla ",
+      "id": 5,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description5"
+    },
+    {
+      "location": {
+        "latitude": 40.383177,
+        "longitude": 49.84
+      },
+      "name": "Məlöykumə salam qaqli",
+      "id": 6,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description1"
+    },
+    {
+      "location": {
+        "latitude": 40.395177,
+        "longitude": 49.859
+      },
+      "name": "Salam Aleykum qaqli ",
+      "id": 7,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description1"
+    },
+    {
+      "location": {
+        "latitude": 40.405177,
+        "longitude": 49.849
+      },
+      "name": "Salam Aleykum qaqli ",
+      "id": 8,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description8"
+    },
+    {
+      "location": {
+        "latitude": 40.375177,
+        "longitude": 49.92
+      },
+      "name": "Dinozavr qurultayi 2020 Baku",
+      "id": 9,
+      "category": "Social"
+    },
+    {
+      "location": {
+        "latitude": 40.535177,
+        "longitude": 49.7
+      },
+      "name": "Dinozavr qurultayi 2020 Sumqayit",
+      "id": 10,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description9"
+    },
+    {
+      "location": {
+        "latitude": 40.469177,
+        "longitude": 50.05
+      },
+      "name": "Hamimiz uchuruq",
+      "id": 11,
+      "category": "Social",
+      "date": "10/12/2019",
+      "about": "Very interesting event description that has to take some space, bla bla bla. Some textt  -Description10"
+    }
+  ],
+  "joined": [
+    {
+      "title": "This is test name for event 1a",
+      "date": "23/12/2019",
+      "time": "10:30",
+      "id": 1
+    },
+    {
+      "title": "This is test name for event 1a",
+      "date": "29/12/2019",
+      "time": "12:30",
+      "id": 2
+    },
+    {
+      "title": "This is test name for event 1a",
+      "date": "28/12/2019",
+      "time": "12:30",
+      "id": 3
+    },
+    {
+      "title": "This is test name for event 1a",
+      "date": "27/12/2019",
+      "time": "02:30",
+      "id": 4
+    }
+  ]
+}

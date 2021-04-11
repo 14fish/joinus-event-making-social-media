@@ -1,0 +1,8 @@
+.profile-picture{
+    margin: 10px 15px 0px 80px !important;
+}
+.btn-for-profile-picture{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
